@@ -1,3 +1,36 @@
 h1 {
 	color: goldenrod;
+	font-family: "Aleo", serif;
+}
+
+h2 {
+	font-family: "Fira Code", monospace;
+}
+
+.one {
+	font-family: "Aleo", sans-serif;
+}
+
+.two {
+	font-family: "Chivo", sans-serif;
+}
+
+.three {
+	font-family: "Fira Code", monospace;
+}
+
+.four {
+	font-family: "Fira Sans", sans-serif;
+}
+
+.five {
+	font-family: "Inria Sans", sans-serif;
+}
+
+.six {
+	font-family: "Lexend", sans-serif;
+}
+
+.seven {
+	font-family: "Outfit", sans-serif;
 }
