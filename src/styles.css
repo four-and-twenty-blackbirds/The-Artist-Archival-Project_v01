@@ -8,6 +8,7 @@ h1 {
 	font-family: var(--primary-font);
 	font-weight: 800;
 	font-size: 60px;
+	font-kerning: auto;
 	line-height: 57px;
 	padding: 24px 0px;
 }
@@ -16,19 +17,68 @@ h3 {
 	font-family: var(--primary-font);
 	font-weight: 800;
 	font-size: 27px;
+	line-height: 30px;
+	font-kerning: auto;
 }
 
 footer {
 	background: lightgray;
+	width: 100%;
 }
 
 .container {
 	max-width: 90%;
-	margin: 6px auto;
+	margin: 6px auto 0px;
 	padding: 15px;
 }
 
 .navbar-container {
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+.card {
+	margin-bottom: 30px;
+}
+
+.card-title {
+	font-family: var(--secondary-font);
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.card-hr {
+	margin: 6px auto;
+}
+
+.card-text {
+	font-style: italic;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.footer-container {
+	padding: 15px;
+}
+
+@media (max-width: 350px) {
+	h1 {
+		font-size: 30px;
+		line-height: 33px;
+	}
+
+	.container {
+		max-width: 100%;
+		margin: 6px auto 0px;
+		padding: 9px;
+	}
+
+	h3 {
+		font-size: 15px;
+		line-height: 17px;
+	}
 }
