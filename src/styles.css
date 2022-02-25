@@ -4,6 +4,10 @@
 	--monospace-font: "Fira Code", monospace;
 }
 
+nav {
+	background: #314e52;
+}
+
 h1 {
 	font-family: var(--primary-font);
 	font-weight: 800;
@@ -11,6 +15,13 @@ h1 {
 	font-kerning: auto;
 	line-height: 57px;
 	padding: 24px 0px;
+}
+
+h2 {
+	font-family: var(--primary-font);
+	font-weight: 600;
+	font-kerning: auto;
+	margin: 21px 0;
 }
 
 h3 {
@@ -28,11 +39,24 @@ h3 {
 }
 
 .navbar-container {
-	padding: 3px 15px;
+	padding: 3px 0px;
+}
+
+.section-b-container {
+	background: #e3f6f5;
+	width: 100%;
 }
 
 .row {
 	margin: 0 auto;
+}
+
+.col-6,
+.col-12,
+.col-md-6,
+.col-lg-4 {
+	padding-left: 0px;
+	padding-right: 24px;
 }
 
 .card {
@@ -56,7 +80,7 @@ h3 {
 }
 
 .footer-container {
-	background: lightgray;
+	background: #cdac81;
 	width: 100%;
 }
 
