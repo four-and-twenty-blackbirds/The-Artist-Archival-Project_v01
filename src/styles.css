@@ -105,7 +105,6 @@ h3 {
 .footer-icons {
 	display: flex;
 	justify-content: right;
-	align-self: flex-end;
 	padding-bottom: 6px;
 }
 
