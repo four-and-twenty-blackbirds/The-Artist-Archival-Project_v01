@@ -21,7 +21,7 @@ h2 {
 	font-family: var(--primary-font);
 	font-weight: 600;
 	font-kerning: auto;
-	margin: 21px 0;
+	margin: 12px 0;
 }
 
 h3 {
@@ -32,9 +32,22 @@ h3 {
 	font-kerning: auto;
 }
 
+hr {
+	border: 1px solid black;
+	border-radius: 6px;
+}
+
+.horizontal-line {
+	background-color: black;
+	margin-top: 60px;
+	margin-bottom: 6px;
+	height: 3px;
+	border-radius: 6px;
+}
+
 .container {
 	max-width: 90%;
-	margin: 6px auto 0px;
+	margin: 6px auto;
 	padding: 15px;
 }
 
@@ -53,18 +66,6 @@ h3 {
 
 .row {
 	margin: 0 auto;
-}
-
-.col-4,
-.col-md-4,
-.col-6,
-.col-8,
-.col-md-8,
-.col-12,
-.col-md-6,
-.col-lg-4 {
-	padding-left: 0px;
-	padding-right: 24px;
 }
 
 .card {
@@ -95,17 +96,28 @@ h3 {
 	border-radius: 6px;
 }
 
+.project-gallery {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 21px;
+}
+
+.project-img {
+	max-width: 100%;
+	border-radius: 6px;
+	margin: 0 auto;
+	margin-top: 6px;
+}
+
+.project-content {
+	border-radius: 6px;
+}
+
 .footer-container {
 	background: #cdac81;
 	width: 100%;
 	margin-top: 45px;
 	padding-bottom: 21px;
-}
-
-.footer-icons {
-	display: flex;
-	justify-content: right;
-	padding-bottom: 6px;
 }
 
 .social-media-icons {
