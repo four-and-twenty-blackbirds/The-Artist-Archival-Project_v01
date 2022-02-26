@@ -32,9 +32,22 @@ h3 {
 	font-kerning: auto;
 }
 
+h4 {
+	font-family: var(--secondary-font);
+}
+
 hr {
 	border: 1px solid black;
 	border-radius: 6px;
+}
+
+ul {
+	margin: 30px 0px;
+}
+
+li {
+	padding-bottom: 12px;
+	line-height: 18px;
 }
 
 .container {
@@ -54,6 +67,17 @@ hr {
 .section-b-container {
 	background: #e3f6f5;
 	width: 100%;
+}
+
+.project-link {
+	color: black;
+	text-decoration: none;
+	transition: 200ms all ease-in-out;
+}
+
+.project-link:hover {
+	color: #00adb5;
+	text-decoration: underline;
 }
 
 .proj-crumbs-links {
