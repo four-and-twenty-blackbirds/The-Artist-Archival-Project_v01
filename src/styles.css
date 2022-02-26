@@ -112,6 +112,15 @@ hr {
 	margin: 12px auto;
 }
 
+.caption-text {
+	margin: 0 auto;
+	padding: 0;
+	font-weight: 200;
+	font-size: 12px;
+	text-align: center;
+	font-style: italic;
+}
+
 .project-content {
 	margin: 0 auto;
 	padding: 12px;
