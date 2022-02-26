@@ -32,16 +32,12 @@ h3 {
 	font-kerning: auto;
 }
 
-hr {
-	border: 1px solid black;
-	border-radius: 6px;
+p {
+	margin: 60px auto;
 }
 
-.horizontal-line {
-	background-color: black;
-	margin-top: 60px;
-	margin-bottom: 6px;
-	height: 3px;
+hr {
+	border: 1px solid black;
 	border-radius: 6px;
 }
 
@@ -62,6 +58,14 @@ hr {
 .section-b-container {
 	background: #e3f6f5;
 	width: 100%;
+}
+
+.horizontal-line {
+	background-color: black;
+	margin-top: 60px;
+	margin-bottom: 6px;
+	height: 3px;
+	border-radius: 6px;
 }
 
 .row {
@@ -105,12 +109,12 @@ hr {
 .project-img {
 	max-width: 100%;
 	border-radius: 6px;
-	margin: 0 auto;
-	margin-top: 6px;
+	margin: 12px auto;
 }
 
 .project-content {
-	border-radius: 6px;
+	margin: 0 auto;
+	padding: 12px;
 }
 
 .footer-container {
