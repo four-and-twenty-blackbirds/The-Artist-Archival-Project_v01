@@ -4,15 +4,6 @@
 	--monospace-font: "Fira Code", monospace;
 }
 
-.scrolled-down {
-	transform: translateY(-100%);
-	transition: all 0.3s ease-in-out;
-}
-.scrolled-up {
-	transform: translateY(0%);
-	transition: all 0.3s ease-in-out;
-}
-
 body {
 	color: #202529;
 }
