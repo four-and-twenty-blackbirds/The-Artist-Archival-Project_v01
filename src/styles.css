@@ -89,15 +89,11 @@ li {
 	text-decoration: underline;
 }
 
-.proj-crumbs-links {
-	color: black;
-	text-decoration: none;
-	transition: 200ms all ease-in-out;
-}
-
-.proj-crumbs-links:hover {
-	color: #00adb5;
-	text-decoration: underline;
+.project-button {
+	display: block;
+	margin: 0 auto;
+	font-size: 18px;
+	width: 210px;
 }
 
 .project-description {
@@ -183,8 +179,8 @@ li {
 
 @media (max-width: 480px) {
 	h1 {
-		font-size: 30px;
-		line-height: 33px;
+		font-size: 39px;
+		line-height: 39px;
 		padding: 24px 9px;
 	}
 
@@ -202,5 +198,12 @@ li {
 @media (max-width: 768px) {
 	.about-image {
 		margin: 21px auto;
+	}
+
+	.project-button {
+		display: block;
+		margin: 0 auto;
+		font-size: 15px;
+		width: 145px;
 	}
 }
