@@ -185,6 +185,10 @@ a:hover {
 	align-self: flex-end;
 }
 
+.social-media-icons:hover {
+	opacity: 0.5;
+}
+
 @media (max-width: 480px) {
 	h1 {
 		font-size: 39px;
