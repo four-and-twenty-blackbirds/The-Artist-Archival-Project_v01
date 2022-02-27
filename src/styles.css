@@ -59,6 +59,14 @@ li {
 	line-height: 18px;
 }
 
+a {
+	color: #00adb5;
+}
+
+a:hover {
+	color: black;
+}
+
 .container {
 	max-width: 90%;
 	margin: 6px auto;
