@@ -2,10 +2,11 @@
 	--primary-font: "Lexend", sans-serif;
 	--secondary-font: "Aleo", sans-serif;
 	--monospace-font: "Fira Code", monospace;
+	--secondary-color: #202529;
 }
 
 body {
-	color: #202529;
+	color: var(--secondary-color);
 }
 
 h1 {
@@ -58,10 +59,14 @@ a:hover {
 	color: black;
 }
 
+a.project-button {
+	margin: 12px auto 60px;
+}
+
 .container {
-	max-width: 90%;
+	max-width: 900px;
 	margin: 6px auto;
-	padding: 15px;
+	padding: 15px 30px;
 }
 
 .navbar-container {
@@ -93,6 +98,12 @@ a:hover {
 	margin: 0 auto;
 	font-size: 18px;
 	width: 210px;
+	transition: 150ms all ease-in-out;
+}
+
+.project-button:hover {
+	color: white;
+	background-color: var(--secondary-color);
 }
 
 .project-description {
