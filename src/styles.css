@@ -61,6 +61,13 @@ a:hover {
 
 a.project-button {
 	margin: 12px auto 60px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	color: var(--secondary-color);
+	padding: 9px;
+	border-radius: 6px;
+	width: 180px;
 }
 
 .container {
